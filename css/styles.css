@@ -1,0 +1,165 @@
+/* fonts */
+
+.gothic {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#chicken {
+  color: green;
+}
+
+.gothic-50 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.gothic-40 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+.gothic-30 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.gothic-20 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.gothic-10 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* font color */
+
+.fc-yellow {
+  color: rgb(255, 242, 0);
+}
+
+.fc-black {
+  color: rgb(0, 0, 0);
+}
+
+/* background */
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-yellow {
+  background-color: rgb(255, 242, 0);
+}
+
+/* lists */
+
+.list-style-none {
+  list-style-type: none;
+}
+
+/* global */
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#header li {
+  padding: 10px;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+/* text */
+
+.text-center {
+  text-align: center;
+}
+
+.content-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-link {
+  padding: 30px;
+}
+
+/* grid */
+
+.grid-container {
+  display: grid;
+}
+
+.one {
+  grid-column: 1;
+  text-align: center;
+}
+
+.one ul {
+  padding: 0;
+}
+
+.one li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.two {
+  grid-column: 2;
+  text-align: center;
+}
+
+.two ul {
+  padding: 0;
+}
+
+.two li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.three {
+  grid-column: 3;
+  text-align: center;
+}
+
+.three ul {
+  padding: 0;
+}
+
+.three li {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* animation */
+
+.rotate:hover {
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
